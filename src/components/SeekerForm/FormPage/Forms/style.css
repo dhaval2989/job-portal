@@ -1,0 +1,246 @@
+.career_details {
+  display: block;
+}
+
+.career_details p {
+  font-size: 17px;
+}
+
+.career_details .option-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+}
+
+.career_details .option-flex .custom-radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.career_details .option-flex .custom-radio [type=radio] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.career_details .option-flex .custom-radio .radio-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin: 0 10px 0 0;
+}
+
+.career_details .option-flex .custom-radio .label-icon {
+  border-radius: 3px;
+  border: 2px solid var(--dark-theme06);
+  background-size: auto 40px;
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  margin-bottom: 0;
+  padding: 15px 30px;
+  padding-top: 65px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-transition: all 0.3s cubic-bezier(0.07, 0.49, 1, 0.08);
+  transition: all 0.3s cubic-bezier(0.07, 0.49, 1, 0.08);
+}
+
+.career_details .option-flex .custom-radio .label-icon.option1 {
+  background-image: url("../../../../IMG/intern.png");
+}
+
+.career_details .option-flex .custom-radio .label-icon.option2 {
+  background-image: url("../../../../IMG/full.png");
+}
+
+.career_details .option-flex .custom-radio .label-icon.option3 {
+  background-image: url("../../../../IMG/part.png");
+}
+
+.career_details .option-flex .custom-radio .or-separator {
+  margin: 0 35px;
+}
+
+.career_details .option-flex .custom-radio label, .career_details .option-flex .custom-radio .or-separator {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: black;
+}
+
+.career_details .priotrity-field .working-choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.career_details .duration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.career_details .duration .timeP {
+  width: 100%;
+  margin-right: 8px;
+}
+
+.career_details .add_more_data {
+  width: 100%;
+  display: inline-block;
+  margin: 25px 15px;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper .btn {
+  border: 2px solid #00bcd4;
+  color: #00bcd4;
+  background-color: white;
+  padding: 6px 15px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.switch-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.switch-field input {
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  border: 0;
+  overflow: hidden;
+}
+
+.switch-field input:checked + label {
+  background-color: #00bcd4;
+  -webkit-box-shadow: var(--bs-lg);
+          box-shadow: var(--bs-lg);
+}
+
+.switch-field label {
+  background-color: #e4e4e4;
+  color: #4b4b4b;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 600;
+  text-align: center;
+  padding: 8px 16px;
+  margin-right: -1px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+          box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+  cursor: pointer;
+}
+
+.switch-field label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+
+.option-heading {
+  display: block;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+}
+
+/* IMAGE STYLES */
+[type=radio] + .label-icon {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + .label-icon {
+  background: #00bcd4;
+  width: 100%;
+  height: 100%;
+  padding: 100%;
+  margin: 0;
+  -webkit-box-shadow: inset 0px 0px 20px 11px #00000080;
+          box-shadow: inset 0px 0px 20px 11px #00000080;
+}
+
+[type=radio]:checked + .label-icon.option1 {
+  background-image: url("https://www.flaticon.com/premium-icon/icons/svg/1660/1660759.svg");
+  background-position: center 10px;
+}
+
+[type=radio]:checked + .label-icon.option2 {
+  background-image: url("https://www.flaticon.com/premium-icon/icons/svg/677/677768.svg");
+  background-position: center 10px;
+}
+/*# sourceMappingURL=style.css.map */
