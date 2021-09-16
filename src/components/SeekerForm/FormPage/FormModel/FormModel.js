@@ -3,12 +3,12 @@ export default {
     formField: {
         // Presonal Deteails Seeker ============================================
         DOB: {
-            name: 'DOB',
+            name: 'dateOfBirth',
             label: 'DOB*',
             requiredErrorMsg: 'DOB is required',
         },
         imageUploader: {
-            name: 'Profile Iamge',
+            name: 'profileImage',
             label: 'Profile Iamge',
             requiredErrorMsg: 'Profile Iamge is required',
         },
@@ -19,9 +19,8 @@ export default {
             invalidErrorMsg:'Invalid Name'
         },
         gender: {
-            name: 'Gender',
+            name: 'gender',
             label: 'Gender*',
-            
         },
         seekerEmailID: {
             name: 'seekerEmailID',

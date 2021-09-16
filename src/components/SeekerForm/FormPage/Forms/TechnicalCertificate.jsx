@@ -110,7 +110,7 @@ export default function TechnicalCertificate(props) {
                               <TableCell>
                                 <Grid item md={12}>
                                   <InputField
-                                    name="Company Name"
+                                    name="companyName"
                                     label="Certificate Name"
                                   
                                     fullWidth
@@ -214,7 +214,7 @@ export default function TechnicalCertificate(props) {
                           <TableCell>
                             <Grid item md={12}>
                               <InputField
-                                name="Company Name"
+                                name="companyName"
                                 label="Certificate Name"
                                 fullWidth
                               />
@@ -224,7 +224,7 @@ export default function TechnicalCertificate(props) {
                           <TableCell>
                             <Grid item md={12} xs={12}>
                               <InputField
-                                name="Company Name"
+                                name="companyName"
                                 label="Institute Name"
                                 fullWidth
                               />
@@ -233,7 +233,7 @@ export default function TechnicalCertificate(props) {
                           <TableCell>
                             <Grid item md={12}>
                               <InputField
-                                name="Marks / Score"
+                                name="score"
                                 label="Marks / Score"
                                 fullWidth
                               />

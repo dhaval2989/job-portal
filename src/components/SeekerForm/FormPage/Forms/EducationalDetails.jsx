@@ -50,8 +50,8 @@ export default function EducationalDetails(props) {
                 <TableCell >
                   <Grid item md={12}>
                     <InputField
-                      name="{seekerEmailID.name}"
-                      label="{seekerEmailID.label}"
+                      name="seekerEmailID"
+                      label="Email ID"
                       fullWidth
                     />
                   </Grid>
@@ -59,7 +59,7 @@ export default function EducationalDetails(props) {
                 <TableCell >
                   <Grid item md={12}>
                     <InputField
-                      name="School Name"
+                      name="schoolName"
                       label="School Name"
                       fullWidth
                     />
@@ -68,7 +68,7 @@ export default function EducationalDetails(props) {
                 <TableCell  >
                   <Grid item md={12}>
                     <InputField
-                      name="Specialization"
+                      name="specialization"
                       label="Specialization"
                       fullWidth
                     />
@@ -77,7 +77,7 @@ export default function EducationalDetails(props) {
                 <TableCell  >
                   <Grid item md={12}>
                     <InputField
-                      name="Specialization"
+                      name="specialization"
                       label="Specialization"
                       fullWidth
                     />
@@ -86,7 +86,7 @@ export default function EducationalDetails(props) {
                 <TableCell  >
                   <Grid item md={12}>
                     <InputField
-                      name="Specialization"
+                      name="specialization"
                       label="Specialization"
                       fullWidth
                     />
@@ -123,7 +123,7 @@ export default function EducationalDetails(props) {
                 </TableCell>
                 <TableCell  >
                   <Grid item md={12}>
-                    <input type="number" name="% / CGPA" label="% / CGPA" fullWidth pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==2) return false;" />
+                    <input type="number" name="cgpa" label="% / CGPA" fullWidth pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==2) return false;" />
                   </Grid>
                 </TableCell>
                 <TableCell  >
@@ -162,7 +162,7 @@ export default function EducationalDetails(props) {
                 </TableCell>
                 <TableCell  >
                   <Grid item md={12}>
-                    <input type="number" name="% / CGPA" label="% / CGPA" fullWidth pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==2) return false;" />
+                    <input type="number" name="cgpa" label="% / CGPA" fullWidth pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==2) return false;" />
                   </Grid>
                 </TableCell>
                 <TableCell  >
@@ -201,7 +201,7 @@ export default function EducationalDetails(props) {
                 </TableCell>
                 <TableCell  >
                   <Grid item md={12}>
-                    <input type="number" name="% / CGPA" label="% / CGPA" fullWidth pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==2) return false;" />
+                    <input type="number" name="cgpa" label="% / CGPA" fullWidth pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==2) return false;" />
                   </Grid>
                 </TableCell>
                 <TableCell  >
@@ -240,7 +240,7 @@ export default function EducationalDetails(props) {
                 </TableCell>
                 <TableCell  >
                   <Grid item md={12}>
-                    <input type="number" name="% / CGPA" label="% / CGPA" fullWidth pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==2) return false;" />
+                    <input type="number" name="cgpa" label="% / CGPA" fullWidth pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==2) return false;" />
                   </Grid>
                 </TableCell>
                 <TableCell  >

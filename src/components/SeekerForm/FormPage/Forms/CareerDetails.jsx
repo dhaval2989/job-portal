@@ -246,12 +246,12 @@ export default function PersonalDetails(props) {
                             </TableCell>
                             <TableCell>
                               <Grid item md={12}>
-                                <InputField name="Company Name" fullWidth />
+                                <InputField name="companyName" fullWidth />
                               </Grid>
                             </TableCell>
                             <TableCell>
                               <Grid item md={12}>
-                                <InputField name="Positions" fullWidth />
+                                <InputField name="positions" fullWidth />
                               </Grid>
                             </TableCell>
                             <TableCell>
